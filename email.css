@@ -1,0 +1,179 @@
+body{
+	background-color: white;
+	background-size: 1600px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1080px;
+	}
+
+nav{
+    display: block;
+    background-color: white;
+    margin-top: 60px;
+
+}
+nav ul{
+    margin: 0;
+    padding: 12px;
+    list-style: none;
+     box-shadow: 2px 7px 7px 15px rgba(0,0,0,0.5);
+
+}
+nav ul > li{ display: inline; }
+nav ul > li > a{
+    display: inline-block;
+    padding: 15px 163px;
+    text-decoration: none;
+    color: #ad4907;
+    font-size: 20px;
+}
+ nav ul > li > a:hover{
+	background-color: #ad4907;
+	color: white;
+	border-color: ;
+}
+
+h1{
+	font-size: 40px;
+	color: white;
+	padding-top: 120px;
+	text-align: center;
+	letter-spacing: 20px;
+}
+.logo1 img{
+	width: 50%;
+}
+.logo1 {
+	text-align: center;
+}
+
+.atas1{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 8px;
+	padding-top: 30px;
+}
+.customers{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.logo img{
+	width: 140px;
+	height: 100px;
+
+}
+.logo{
+	text-align: center;
+	width: 100%;
+}
+.web {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+.copyright {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.oren {
+	background-color: #ad4907;
+	width: 100%;
+	height: 100%;
+}
+.hitam{
+	background: rgba(0, 0, 0, 0.71);
+	width: auto;
+	height: auto;
+	background-position:bottom;
+}
+
+*{margin: 0; padding: 0}
+@keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+}
+#close {
+    background-color: rgba(0, 0, 0, 0.76);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    animation:autopopup 3.5s;
+}
+#close:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (min-width: 768px){
+    .container-popup {
+        width:30%;
+    }
+}
+@media (max-width: 1000px){
+    .container-popup {
+        width:70%;
+    }
+}
+.container-popup {
+    position: relative;
+    margin: 5% auto;
+    padding: 15px 15px;
+    background-color: #ffff;
+    color: #333;
+}
+.container-popup img {
+    width: 100%;
+}
+
+.popup-form{
+
+}
+.judul{
+	text-align: center;
+
+}
+a.popup-close {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    padding: 7px 10p;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1;
+    color: #fff;
+}
+.batal{
+	background: rgb(219, 138, 0);
+	margin-left: auto;
+}
+.box{
+
+	width: 140px;
+	height: 30px;
+	border: none;
+	color: white;
+	letter-spacing: 5px;
+}
+.kirim{
+	background: rgb(36, 64, 171);
+	margin-right: auto;
+}
+.isi{
+	padding-left: 20px;
+	spacing 20px;
+}
+.isi input{
+	padding-left: 50px;
+	width: 70PX;
+}

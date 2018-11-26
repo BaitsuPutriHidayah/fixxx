@@ -1,0 +1,122 @@
+body{
+	background: url(nature.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(brush script mt kursiv.ttf);
+}
+div{
+	font-family: myFirstFont;
+
+}
+
+.photo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-image: url(logo.png); 
+}
+
+/* box hitam*/
+.box {
+  position:relative;
+  border-radius: 20px;
+  padding: 15px;
+  width: 400px;
+  height: 840px;
+  font-family:myFirstFont;
+  color:#fff;
+  background:rgba(0,0,0,0.35);
+  top: 5%;
+  left: 57%;
+
+}
+.box h1{
+  text-align: center;
+  margin:30px 0;
+  font-size:35px;
+  font-style: ;
+}
+.box input{
+  display:block;
+  width:300px;
+  margin:5px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:white;
+  border:0;
+}
+
+
+.box button:active{
+  background:#27ae60;
+}
+
+
+/* tulisan form */
+.tabel{
+	border: transparent;
+	border-radius: 20px;
+  padding: 15px;
+	top: 25%;
+	left: 5%;
+	color: white;
+	font-size: 18px;
+}
+.box button{
+  background:#1a753d;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}
+
+/* box putih*/
+.inner-container{
+	border: 1px solid white;
+	border-radius: 20px;
+  padding: 15px;
+	top: 5%;
+	left: 5%;
+	color : black;
+	border-width: 90% ;
+
+}
+
+.input{
+	border: none;
+}
+
+.list{
+
+}
+
+@media (max-width: 550px) {
+.inner-container{
+  border: 30px solid white;
+  color : pink;
+}
+.tabel{
+  border-radius: 20px;
+  color: blue;
+   padding: 30px;
+}
+}
+@media (min-width: 550px) and (max-width: 992px) {
+.inner-container{
+  border: 20px solid white;
+  color : white;
+}
+.tabel{
+  border-radius: 30px;
+  color: green;
+   padding: 40px;
+}
+}
